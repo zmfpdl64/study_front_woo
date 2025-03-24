@@ -26,6 +26,8 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
         	# 빌드 결과물이 생성되는 경로를 작성해줍니다. 
         	# 여기에서는 예시로 yarn build 명령어를 입력하면 빌드 결과물이 ./build 에 생성된다고 가정하였습니다.
         	# 즉, 만약 빌드 결과물이 ./out/build 에 생성된다면 아래 path 를 "./out/build" 로 수정하면 됩니다.
