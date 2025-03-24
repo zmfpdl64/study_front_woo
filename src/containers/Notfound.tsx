@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Fragment } from 'react'
 
-export default function Home() {
+export default function Notfound() {
     return (
         <Fragment>
             <Navbar />
